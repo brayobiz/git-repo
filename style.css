@@ -6,7 +6,7 @@
 }
 body{
   background: #434343;
-  color: #fff;
+  color: #fff
 }
 
 #header{
@@ -14,7 +14,7 @@ body{
   height: 100vh;
   background-size: cover;
   background-position: center;
-/*  background-image: url('brian1.jpg');*/
+  background-image: url(1000000022-fotor-bg-remover-2024071421423.png);
 }
 h2{
   color: #000000;
