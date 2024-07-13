@@ -5,25 +5,72 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
-  <style>
-    .nav a{
-      display: inline;
-      text-decoration: none;
-      color: white;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <nav>
-    <div class="nav">
-      <a href="#">About me</a>
-      <a href="#">Blog</a>
-      <a href="#">Our Services</a>
-      <a href="#">Contact Me</a>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <h2><span>B</span>rian.</h2>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About me</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Portfolio</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <p>UI/UX Designer</p>
+        <h1>I Am <span>Brian</span> <br>Kangogo From Kenya.</h1>
+      </div>
     </div>
-  </nav>
-  <h1>Hello World</h1>
+  </div>
+  <!----about---->
+  <div id="about">
+      <div class="row">
+        <img src="IMG_20240224_171512.jpg" alt="brian.jpg">
+        <div class="about-col-2">
+          <h1>About me</h1>
+          <p>LESSONS WE LEARN FROM THE WORLD MOST PROMINENT Dr. Ben Carson said,"I struggled academically throughout elementary school yet became the best Neurosurgeon in the World in 1987" Struggling is a sign that you are on a verge of success. Don't quit yet.Oprah Winfrey said, " I was raped at the age of 9 yet I am one of the most influential women in the World" .*LESSON* : Don't let your past decide your future.Bill Gate said,"I didn't even complete my university education but became the World's richest man" *LESSON* :School does not make you rich. School is only suppose to Polish what will make you rich, not make you Rich.</p>
+          <div class="sub-title">
+            <p class="mytitle active-link" onclick="OpenContent('skills')">Skills</p>
+            <p class="mytitle" onclick="OpenContent('experience')">Experience</p>
+            <p class="mytitle" onclick="OpenContent('education')">Education</p>
+          </div>
+          <div class="mytitle-contents active-title" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br>Designing Web and App interfaces</li>
+              <li><span>Web Development</span><br>Web App Development</li>
+              <li><span>App Development</span><br>Creating Applications for Android and IOS</li>
+              <li><span>DataBase Administration</span><br>Database Management with Mysql</li>
+            </ul>
+          </div>
+          
+  
+          <div class="mytitle-contents" id="experience">
+            <ul>
+              <li><span>UI/UX</span><br>Designing Web and App interfaces</li>
+              <li><span>Web Development</span><br>Web App Development</li>
+              <li><span>App Development</span><br>Creating Applications for Android and IOS</li>
+              <li><span>DataBase Administration</span><br>Database Management with Mysql</li>
+            </ul>
+          </div>
+          
+  
+          <div class="mytitle-contents" id="education">
+            <ul>
+              <li><span>UI/UX</span><br>Designing Web and App interfaces</li>
+              <li><span>Web Development</span><br>Web App Development</li>
+              <li><span>App Development</span><br>Creating Applications for Android and IOS</li>
+              <li><span>DataBase Administration</span><br>Database Management with Mysql</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  </div>
+<script src="index.js"></script>
 </body>
 
 </html>
