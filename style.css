@@ -163,3 +163,45 @@ mytitle-contents ul li span{
   background-color: #FF00D1;
   transform:translateY(-10px);
 }
+.container h1{
+  margin:15px;
+}
+.work{
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.work img{
+  display: block;
+  border-radius: 15px;
+  width: 100%;
+}
+.work-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+}
+.layer{
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  background:linear-gradient(rgba(0,0,0,0.6), #ff006d) ;
+  display: flex;
+  align-items: center;
+  justify-content: centre;
+  flex-direction: column;
+  margin: 0;
+  padding-top: 50%;
+  text-align: centre;
+}
+.layer a{
+  text-decoration: none;
+  color: #ff0;
+  font-size: 30px;
+  font-weight: 500;
+  padding: 25px;
+}
