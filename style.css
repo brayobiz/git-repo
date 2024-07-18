@@ -32,6 +32,9 @@ nav{
   align-items: center;
   flex-wrap: wrap;
 }
+.container nav h1{
+  font-size: 60px;
+}
 nav ul li{
   display: inline-block;
   list-style: none;
@@ -86,6 +89,7 @@ img{
   width: 100%;
   border-radius: 20px;
   background-size: cover;
+  filter: drop-shaddow(1px 1px 20px yellow);
   
 
 }
@@ -280,3 +284,16 @@ form button{
   text-align: center;
   height: 15px;
 }
+
+
+</*-----------media-------------*/
+/*@media screen and (max-width = 100px){
+  #header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(IMG_20240621_111154.jpg);
+  }
+  .header-text h1{
+    font-size: 18px;
+  }
+}*/
