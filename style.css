@@ -258,7 +258,7 @@ img{
   background-color: #ff404f;
   transform: translateY(-5px);
 }
-contact-right form{
+.contact-right form{
   width: 100%;
 }
 form input, form textarea{
@@ -268,7 +268,9 @@ form input, form textarea{
   border: 0px;
   background: #262626;
   border-radius: 6px;
-  
+}
+#input{
+  color: white;
 }
 form button{
   background-color: #ff006d;
@@ -284,16 +286,3 @@ form button{
   text-align: center;
   height: 15px;
 }
-
-
-</*-----------media-------------*/
-/*@media screen and (max-width = 100px){
-  #header{
-    width: 100%;
-    height: 100vh;
-    background-image: url(IMG_20240621_111154.jpg);
-  }
-  .header-text h1{
-    font-size: 18px;
-  }
-}*/
